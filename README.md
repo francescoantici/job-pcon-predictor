@@ -8,5 +8,5 @@ This repository contains the source code for the submission of the paper: Natura
 - `evaluate.py` contains the model definition and the code to launch the experiments. 
 - `experiments.py` contains the code for the experimental setting presented in the paper, namely offline and online. 
 - `utils.py` contains the code for the evaluation of the results with the different metrics considered in the study.
-- `requirements.txt` is the list of the required python packages to run the code.  
+- `requirements.txt` is the list of the python packages required to run the code.  
 
