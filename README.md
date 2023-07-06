@@ -33,7 +33,7 @@ Each job should contain the following features:
 
 In order to replicate the experiments reported in the paper, the `evaluate.py` script must be executed. 
 
-All the packages used in the project are reported in the `requirements.txt`, the python version used was the 3.11.3. 
+All the packages used in the project are reported in the `requirements.txt`, the python version used was the `3.11.3`. 
 
 It would be useful (but not compulsory) to create a virtual environment and then install the required packages with `pip3 install -r requirements.txt`. 
 
