@@ -18,7 +18,7 @@ def online_experiment(jobs_df, models_setup_dict = {}):
                             
             day = days[training_interval + i]
                         
-            test_df = jobs_df[jobs_df.day == day].sort_values("adt")
+            test_df = jobs_df[jobs_df.day == day].sort_values("submit_time")
                                                     
             train_df = jobs_df[(jobs_df.end_day >= day - timedelta(days=training_interval)) & (jobs_df.end_time < test_df.submit_time.values[0])]
                         
