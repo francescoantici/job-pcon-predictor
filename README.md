@@ -22,7 +22,7 @@ Each job should contain the following features:
 - `end_time` : the time of the stop of the job's execution;
 - `cnumr` : the number of cores requested by the user for the job;
 - `nnumr` : the number of nodes requested by the user for the job;
-- `CR-STR-jobenv-req` : the environment requested for the job execution.
+- `jobenv_req` : the environment requested for the job execution.
 - `nunma` : the number of nodes allocated to the job for the execution;
 - `maxpcon` : the maximum value of the job power consumption;
 - `avgpcon` : the average value of the job power consumption;
