@@ -24,6 +24,7 @@ def sb_encoding_function(df):
 
 def int_encoding_function(df):
     
+    # Create a different set of features' name
     JOB_INT_FEATURES = JOB_FEATURES.copy()
     
     # Encode to categorical the textual features
