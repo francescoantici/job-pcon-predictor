@@ -65,7 +65,7 @@ def online_experiment(jobs_df: pd.DataFrame, models_setup_dict:dict = {}):
         except Exception as e:
             print(e)
 
-def offline_experiment(df: pd.DataFrame, models_setup_dict:dict = {}):
+def offline_experiment(jobs_df: pd.DataFrame, models_setup_dict:dict = {}):
     """Function to run an offline evalutation of the models
 
     Args:
