@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer
 
 JOB_FEATURES = ["usr", "jnam", "cnumr", "nnumr", "jobenv_req"]
 
-def sb_encoding_function(jobs_df:pd.DataFrame) -> np.array:
+def sb_encoding_function(jobs_df:pd.DataFrame) -> np.ndarray:
     
     # Pull the SBert model
     encoder = SentenceTransformer("all-MiniLM-L6-v2")
@@ -22,7 +22,7 @@ def sb_encoding_function(jobs_df:pd.DataFrame) -> np.array:
     
     return x_str
 
-def int_encoding_function(jobs_df: pd.DataFrame) -> np.array:
+def int_encoding_function(jobs_df: pd.DataFrame) -> np.ndarray:
     
     # Create a different set of features' name
     JOB_INT_FEATURES = JOB_FEATURES.copy()
