@@ -37,6 +37,6 @@ All the packages used in the project are reported in the `requirements.txt`, the
 
 It would be useful (but not compulsory) to create a virtual environment and then install the required packages with `pip3 install -r requirements.txt`. 
 
-After setting up the python environment, the `evaluate.py` file should be modified inserting the path to the data file (in parquet) in the `job_df_path` variable.
+After setting up the python environment, the `job_df_path` variable of the `evaluate.py` file should be modified by inserting the path to the data file (in parquet).
 
 It is possible to set different random seeds for the definition of the models by modifying the `RANDOM_SEED` variable, originally initialized to `42`.
