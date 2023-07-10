@@ -2,7 +2,7 @@ import pandas as pd
 from encoders import sb_encoding_function, int_encoding_function
 from utils import regression_report
 from experiments import online_experiment, offline_experiment
-from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor, AdaBoostRegressor
+from sklearn.ensemble import RandomForestRegressor, AdaBoostRegressor
 from xgboost import XGBRegressor
 
 if __name__ == "__main__":
@@ -162,4 +162,7 @@ if __name__ == "__main__":
     
     # Launch of the online experiments
     online_experiment(jobs_df = job_df, models_setup_dict = models_setup_dict)
+    
+    # Launch of the offline experiments 
+    offline_experiment(jobs_df = job_df, models_setup_dict = models_setup_dict)
     
