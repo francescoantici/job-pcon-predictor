@@ -39,4 +39,4 @@ It would be useful (but not compulsory) to create a virtual environment and then
 
 After setting up the python environment, the `job_df_path` variable of the `evaluate.py` file should be modified by inserting the path to the data file (in parquet).
 
-It is possible to set different random seeds for the definition of the models by modifying the `RANDOM_SEED` variable, originally initialized to `42`.
+It is possible to set different random seeds for the definition of the models by modifying the `RANDOM_SEED` variable, originally set to `42`.
