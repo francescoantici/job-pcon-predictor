@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 from tqdm import tqdm
 import pandas as pd 
 
-def online_experiment(jobs_df: pd.DataFrame, models_setup_dict:dict = {}):
+def online_experiment(jobs_df: pd.DataFrame, models_setup_dict:dict = {}) -> None:
     """Function to run an online evalutation of the model
 
     Args:
@@ -65,7 +65,7 @@ def online_experiment(jobs_df: pd.DataFrame, models_setup_dict:dict = {}):
         except Exception as e:
             print(e)
 
-def offline_experiment(jobs_df: pd.DataFrame, models_setup_dict:dict = {}):
+def offline_experiment(jobs_df: pd.DataFrame, models_setup_dict:dict = {}) -> None:
     """Function to run an offline evalutation of the models
 
     Args:
